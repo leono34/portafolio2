@@ -3,34 +3,74 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-h1{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 34px;
+  font-family: Arial;
 }
 /*HEADER*/
-header .cabeza{
+
+h1{
+  font-family: "arial black";
+  font-size: 36px;
+  display: inline;
+  display: inline-block;
+}
+
+header {
   background-color:black;
   color:white;
+  padding: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .tabla{
   position: absolute;
   display: inline;
-  display: inline-flex
+  right: 5%;
+  margin: auto;
 }
-
+.cabeza .tabla li{
+  display: inline-block ;
+  padding: 13px;
+}
 
 /*SOBRE MI*/
 .sobre{
-  background-color:palegreen;
+  padding: 3%;
 }
-.sobre .foto img{
-width: 15%;
-height: 15%;
+.sobre h2{
+  font-size: 24px;
+  border-left:5px  solid black;
+  padding-left: 5px;
+  margin-left:20px;
+}
+.tablero{
+  margin-top: 3%;
+  right:5%;
+  display: inline-flex;
+}
+.logo{
+  width: 1000px;
+  padding-right: 15px;
+}
+.logo .foto {
+width: 250px ;
+height: 250px;
 border-radius: 100%;
+display: inline-block;
+}
+.parrafo{
+  padding-left: 15px;
+}
+.parrafo ul li{
+  display: inline-block;
+  padding: 13px;
+}
+.parrafo ul{
+  margin: 1%;
 }
 
 /*PORTAFOLIO*/
+.portafolio{
+  background-color: chartreuse;
+}
 
 /*MIS HABILIDADES*/
 
