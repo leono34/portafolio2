@@ -5,6 +5,12 @@
   box-sizing: border-box;
   font-family: Arial;
 }
+h2{
+  border-left:5px  solid black;
+  font-size: 24px;
+  padding-left: 5px;
+  margin-left:20px;
+}
 /*HEADER*/
 
 h1{
@@ -35,12 +41,7 @@ header {
 .sobre{
   padding: 3%;
 }
-.sobre h2{
-  font-size: 24px;
-  border-left:5px  solid black;
-  padding-left: 5px;
-  margin-left:20px;
-}
+
 .tablero{
   margin-top: 3%;
   right:5%;
@@ -69,9 +70,32 @@ display: inline-block;
 
 /*PORTAFOLIO*/
 .portafolio{
-  background-color: chartreuse;
+  padding: 3%;
+}
+.portafolio .imagen{
+  width: 80%;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3%;
+}
+.imagen{
+  margin-left:10%;
+}
+.imagen div img {
+  width: 374px;
+  height: 240px;
+  padding: 7%;
+}
+/*MIS HABILIDADES*/
+.habilidades{
+  padding: 3%;
+  background-color: cadetblue;
+}
+.progres{
+  margin-top: 3%;
 }
 
-/*MIS HABILIDADES*/
+
 
 /*CONTACTANOS*/
