@@ -82,20 +82,37 @@ display: inline-block;
 .imagen{
   margin-left:10%;
 }
-.imagen div img {
+.imagen figure img {
   width: 374px;
   height: 240px;
   padding: 7%;
 }
 /*MIS HABILIDADES*/
 .habilidades{
-  padding: 3%;
+  padding: 1%;
   background-color: cadetblue;
 }
 .progres{
+  margin: auto;
+  margin-left: 7%;
   margin-top: 3%;
 }
-
-
+.img{
+  padding: 1%;
+}
+.progres div {
+  width: 45%;
+  display: inline-flex;
+}
+.progres div h3{
+  width: 100px;
+}
+.img .porcentaje{
+  background-color: #f0f0f0;
+  border:1px solid black;
+  width: 100%;
+  border-radius: 11px;
+  position: relative;
+}
 
 /*CONTACTANOS*/
